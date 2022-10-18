@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666087011740' stop='1666087024960'>
+    <name>ValidatingPaymentRecordInHomePage</name>
+    <title>ValidatingPaymentRecordInHomePage</title>
+    <test-cases>
+        <test-case start='1666087011820' status='passed' stop='1666087012623'>
+            <name>EnteringTheURL</name>
+            <title>EnteringTheURL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666087012630' status='passed' stop='1666087014151'>
+            <name>LoginToTheApplication</name>
+            <title>LoginToTheApplication</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666087014152' status='failed' stop='1666087024949'>
+            <name>ValidateTheCountAfterAddingPayment</name>
+            <title>ValidateTheCountAfterAddingPayment</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='d229f71a-18cf-40d4-b8d7-2f004d3a6280-attachment.mp4' type='video/mp4' size='165'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title containing
+                
+                Expected: "  "
+                Received: "Add Payment"</message>
+                <stack-trace>Error: Expect window to have title containing
+                
+                Expected: "  "
+                Received: "Add Payment"
+                    at Context.&lt;anonymous> (C:\Users\Tejashree\OneDrive\Desktop\WebDriverIO\test\specs\ValidatingPaymentRecordInHomePage.js:44:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

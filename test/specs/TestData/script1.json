@@ -1,0 +1,13 @@
+[
+    {
+        "urlpath":"http://rmgtestingserver/domain/Life_Insurance_Management_System/",
+        "username": 555,
+        "password": 666,
+        "clientid":"(100)+Math.round(Math.random()*1000)",
+        "month":"october",
+        "amount":"Math.round(Math.random()*10000)",
+        "due":"Math.round(Math.random()*1000)",
+        "fine":"Math.round(Math.random()*1000)"
+    }
+
+]

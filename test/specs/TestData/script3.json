@@ -1,0 +1,22 @@
+[{
+    "urlpath":"http://rmgtestingserver/domain/Life_Insurance_Management_System/",
+    "username": 555,
+    "password": 666,
+    "clientPassword":12345,
+    "name":"suma",
+    "filePath":"C:/Users/Tejashree/OneDrive/Pictures/Capture 1.png",
+    "gender":"female",
+    "birthdate":"10thoct",
+    "status":"single",
+    "nid":"ind",
+    "phone":1234567890,
+    "address":"Bangalore",
+    "pid":"Math.round(Math.random()*1000)",
+    "nname":"pavani",
+    "ngender":"female",
+    "nbirthdate":"11thoct",
+    "nnid":"ind",
+    "nrelationship":"sister",
+    "priority":"first",
+    "nphone":987654321
+}]

@@ -1,0 +1,10 @@
+[{
+    "urlpath":"http://rmgtestingserver/domain/Life_Insurance_Management_System/",
+    "username": 555,
+    "password": 666,
+    "month":"october",
+    "amount1":"Math.round(Math.random()*10000)",
+    "due":50,
+    "fine":100
+        
+}]
