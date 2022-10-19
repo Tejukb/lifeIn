@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666162245812' stop='1666162253882'>
+    <name>VerifyingAddedClientInHomePage</name>
+    <title>VerifyingAddedClientInHomePage</title>
+    <test-cases>
+        <test-case start='1666162245813' status='passed' stop='1666162247264'>
+            <name>EnteringTheURL</name>
+            <title>EnteringTheURL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666162247266' status='passed' stop='1666162248533'>
+            <name>LoginToTheApplication</name>
+            <title>LoginToTheApplication</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666162248534' status='passed' stop='1666162253877'>
+            <name>ValidateTheCountAfterAddingClient</name>
+            <title>ValidateTheCountAfterAddingClient</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

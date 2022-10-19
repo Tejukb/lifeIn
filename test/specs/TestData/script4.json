@@ -1,0 +1,13 @@
+[
+    {
+        "urlpath":"http://rmgtestingserver/domain/Life_Insurance_Management_System/",
+        "username": 555,
+        "password": 666,
+        "name":"milana",
+        "gender":"female",
+        "birthdate":"15Aug",
+        "nid":"Math.round(Math.random()*1000)",
+        "relationship":"sister"
+    }
+
+]

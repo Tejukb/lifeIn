@@ -26,6 +26,10 @@ class homepage{
 
     get afterAddingClient(){
       return  $("//i[@class='fa fa-user fa-5x']/following-sibling::h5")
-    }    
+    }  
+    
+    get nominee(){
+      return  $("//a[text()='NOMINEE']")
+    }
 }
 module.exports=new homepage()

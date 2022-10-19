@@ -23,12 +23,14 @@ exports.config = {
     //
     specs: [
     //    './test/specs/**/*.js',
-       './test/specs/ValidatingPaymentRecordInHomePage.js'
-    //    './test/specs/VerifingAddedPaymentInPaymentModule.js',
-    //    './test/specs/VerifyingAddedClientInHomePage.js',
+       './test/specs/ValidatingPaymentRecordInHomePage.js',
+       './test/specs/VerifingAddedPaymentInPaymentModule.js',
+      './test/specs/VerifingTheAddedNominee.js',
+       './test/specs/VerifyingAddedClientInHomePage.js',
     //    './test/specs/ExcampleScripts/spicej1etairline.js'
     //    './test/specs/jsonPractice.js',
-    //    './test/specs/ExcelPractice.js'
+    //    './test/specs/ExcelPractice.js',
+          
    
     
     ],
@@ -85,6 +87,7 @@ exports.config = {
     acceptInsecureCerts: true,
 
     'goog:chromeOptions': {
+        // excludeSwitches:['enable-automation'],
         prefs: {
             'profile.managed_default_content_settings.popups': 1,
             'profile.managed_default_content_settings.notifications': 1,

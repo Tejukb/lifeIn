@@ -24,9 +24,6 @@ class addpaymentpage{
         return  $("//input[@type='submit']")
       }
 
-      get (){
-        return  
-      }
       
   }
   module.exports=new addpaymentpage()
