@@ -22,11 +22,11 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-    //    './test/specs/**/*.js',
-       './test/specs/ValidatingPaymentRecordInHomePage.js',
-       './test/specs/VerifingAddedPaymentInPaymentModule.js',
-      './test/specs/VerifingTheAddedNominee.js',
-       './test/specs/VerifyingAddedClientInHomePage.js',
+       './test/specs/**/*.js'
+    //    './test/specs/ValidatingPaymentRecordInHomePage.js',
+    //    './test/specs/VerifingAddedPaymentInPaymentModule.js',
+    //   './test/specs/VerifingTheAddedNominee.js',
+    //    './test/specs/VerifyingAddedClientInHomePage.js',
     //    './test/specs/ExcampleScripts/spicej1etairline.js'
     //    './test/specs/jsonPractice.js',
     //    './test/specs/ExcelPractice.js',
